@@ -1,5 +1,5 @@
 function pred = svm_dag(X_train, Y_train, X_test, degree)
-% DAGSVM implementation
+% DAG SVM implementation
 
 % Get all possible classes
 classes = unique(Y_train);
